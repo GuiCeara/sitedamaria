@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; list-style: none;}
+
+/* SITE CONTENT */
+
+#container-contents {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px 50px 30px;
+	padding: 10px;
+}
+
+.content ul{
+    max-width: 350px;
+}
+
+.container ul li{
+    margin: 2px;
+    padding: 15px;
+    display: flex;
+	justify-content: center;
+	display: inline;
+}
+
+ .content {
+    justify-content: space-evenly;
+	height: 700px;
+	font-weight: bold;
+    display: flex;
+}
+
+.musica{
+    text-align: center;
+    width: 330px;
+    /* border: solid 0.2px rgba(0, 0, 0, 0.26); */
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 15px;
+} 
+
+.nomeMusic{
+    font-family: sans-serif;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.audios{
+    background-color: #f1f3f4;
+    border: 1.5px black solid;
+}

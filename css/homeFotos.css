@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; list-style: none;}
+
+:root{
+	--colorButton: #e28205;
+}
+
+/* FOTOS */
+
+.photos{
+   height: 100%;
+   border: 4.5px solid black; 
+   border-radius: 35px;
+   background-color: rgba(250, 235, 215, 0.527);
+   text-align: center;
+}
+
+.container ul li{
+    margin: 2px;
+    padding: 15px;
+    display: flex;
+	justify-content: center;
+	display: inline;
+}
+
+.photos img:hover{
+    border: 3px solid var(--colorButton);
+    border-radius: 20px;
+}
+
+ul li img{
+    margin-top: 5px;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: -20px 5px 10px rgba(255, 255, 255, 0.616); 
+}
