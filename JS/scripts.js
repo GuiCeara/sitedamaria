@@ -1,6 +1,6 @@
 // FORM STYLE (index)
 
-// email: eusoulindasempre@gmail.com, senha: amoserlindatododia
+// email: admin@admin, senha: 123
 
 var email = document.getElementById('email');
 var password = document.getElementById('password');
@@ -30,7 +30,7 @@ let btnLogin = document.getElementById('send');
 
 function fazerLogin(email="",senha=""){
   if(email.length > 0 && senha.length){
-    if(email == "eusoulindasempre@gmail.com" && senha == "amoserlindatododia" ){
+    if(email == "admin@admin" && senha == "123" ){
       return true;        
     }
     return false;
@@ -38,7 +38,7 @@ function fazerLogin(email="",senha=""){
   else{
     email = prompt("Email");
     senha = prompt("Senha");
-    if(email == "eusoulindasempre@gmail.com" && senha == "amoserlindatododia"){
+    if(email == "admin@admin" && senha == "123"){
       return true;        
     }
     return false;
